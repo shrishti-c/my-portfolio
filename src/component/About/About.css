@@ -1,0 +1,155 @@
+.about-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 80px 80px 80px;
+}
+
+.about-container
+{
+    color: black;
+}
+.about-main-left,
+.about-main-right {
+    width: 50%;
+}
+.sub-head
+{
+    font-size: 20px;
+    font-style:italic;
+    font-weight: 400;
+}
+.about-main-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vect
+{
+    display: flex;
+    flex-direction: row;
+}
+.about-main-left1
+{
+    display: block;
+    box-sizing: border-box;
+    padding: 3em 3em 3em 0;
+    height: 30%;
+    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+    width:40%;
+    border-radius: 35%;
+    text-align: center;
+    
+}
+.about-main-left2
+{
+    display: block;
+    float: right;   
+    box-sizing: border-box;
+    padding: 3em 3em 3em 0;
+    
+    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+   
+    border-radius: 35%;
+    text-align: center;
+    height: 25%;
+    width:60%;
+    position:absolute; right:0;
+}
+
+ul, ol
+{
+    list-style-type: none;
+}
+.about-main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-link-element {
+    color: #000;
+}
+
+.about-sub-head {
+    margin: 0;
+    font-size: 28px;
+}
+
+.about-details {
+    margin: 10px 0 32px 0;
+}
+
+.about-anime {
+    margin-right: 0px;
+    float: right;
+    width: 520px;
+    max-width: 100%;
+    max-height: 60%;
+}
+
+.work
+{
+    color: white;
+    box-sizing: border-box;
+    padding: 6em;
+    text-align: center;
+    justify-content: center;
+   background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+   border-radius: 15%;
+   height: 600px;
+   width:110%;
+   position:relative;
+   top:50px;
+}
+
+.education
+{
+    color: white;
+    box-sizing: border-box;
+    padding: 3em;
+    text-align: center;
+   background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
+   border-radius: 15%;
+   height: 400px;
+   width:90%
+}
+
+.vector-frame {
+    position: absolute;
+    z-index: -10;
+    left: 0;
+    bottom: 0;
+    width: 55%;
+}
+
+.about-vector {
+    float: left;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 640px) {
+    .vector-frame {
+        width: 90%;
+    }
+
+    .about-head {
+        width: 80%;
+    }
+
+    .about-head > p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+
+    .about-main {
+        padding: 50px 32px;
+    }
+
+    .about-main-left,
+    .about-main-right {
+        width: 100%;
+    }
+}
