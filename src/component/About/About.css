@@ -9,6 +9,12 @@
 {
     color: black;
 }
+
+.about-main-left
+{
+    display: flex;
+    flex-wrap: wrap;
+}
 .about-main-left,
 .about-main-right {
     width: 50%;
@@ -34,9 +40,9 @@
     display: block;
     box-sizing: border-box;
     padding: 3em 3em 3em 0;
-    height: 30%;
+    min-height: 30%;
     background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
-    width:40%;
+    min-width:40%;
     border-radius: 35%;
     text-align: center;
     
@@ -72,7 +78,7 @@ ul, ol
 }
 
 .about-sub-head {
-    margin: 0;
+    text-align: center;
     font-size: 28px;
 }
 
@@ -90,29 +96,32 @@ ul, ol
 
 .work
 {
+    display: flex;
+    flex-wrap: wrap;
     color: white;
     box-sizing: border-box;
-    padding: 6em;
+    padding: 4em;
     text-align: center;
     justify-content: center;
    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
    border-radius: 15%;
-   height: 600px;
-   width:110%;
+   
    position:relative;
    top:50px;
 }
 
 .education
 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     color: white;
     box-sizing: border-box;
-    padding: 3em;
+    padding: 3em 3em 3em 0;
     text-align: center;
    background: linear-gradient(39.97deg, #03d6f3 0.79%, #458ff6 79.29%);
    border-radius: 15%;
-   height: 400px;
-   width:90%
+  
 }
 
 .vector-frame {
@@ -151,5 +160,13 @@ ul, ol
     .about-main-left,
     .about-main-right {
         width: 100%;
+    }
+
+    .about-anime{
+ 
+        margin-top: 3em;
+        max-width: 100%;
+        height: auto;
+
     }
 }

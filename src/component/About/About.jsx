@@ -13,7 +13,7 @@ const About = () =>
         <div className='section-container about-container'>
         <Header
             Heading='About Me.'
-            Details='The Passionate Learner || Technologically competent || Problem solver || Adaptability'
+            Details='The Passionate Learner || Technologically competent || Problem solver || Adaptable'
         />
 
         <div className='about-main'>

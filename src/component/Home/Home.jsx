@@ -47,7 +47,7 @@ technologies and trends.</p>
                     <img src={linkedin} alt='social' />
                 </a>
                 <a
-                    href='https://instagram.com/choudhary_shrishti' target="_blank"
+                    href="mailto:shrishtic9@gmail.com" target="_blank"
                     className='social-icon'
                 >
                     <img src={email} alt='social' />
@@ -60,7 +60,7 @@ technologies and trends.</p>
                     <img src={instagram} alt='social' />
                 </a>
                
-                <a href='https://madhavbahl.tech' className='social-icon' target="_blank">
+                <a href='http://shrishti-c.github.io/my-portfolio' className='social-icon' target="_blank">
                     <img src={web} alt='social' />
                 </a>
             </div>

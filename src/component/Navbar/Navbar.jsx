@@ -10,9 +10,8 @@ class Navbar extends React.Component
         console.log(location);
         const homeclass= location.pathname === '/'? 'active-item': "";
         const aboutclass= location.pathname === '/about'? 'active-item': "";
-        const skillclass= location.pathname === '/skill'? 'active-item': "";
-        const contactclass= location.pathname === '/contact'? 'active-item': "";
-        const projectclass= location.pathname === '/project'? 'active-item': "";
+        const skillclass= location.pathname === '/skills'? 'active-item': "";
+        const projectclass= location.pathname === '/projects'? 'active-item': "";
   return(
      <Menu>
        <Link to='/' className={`menu-item ${homeclass}`}>
