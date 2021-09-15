@@ -35,7 +35,11 @@ technologies and trends.</p>
                  <img src={homeanime} alt="home-animation" className="home-anime"/>
              </div>
          </div>
-
+         <Footerlink
+                phrase='Connect With Me! '
+                link=''
+                toadress=''
+            />
          <div className='social-icons-container'>
                 <a href='https://github.com/shrishti-c' className='social-icon' target="_blank">
                     <img src={github} alt='social' />
@@ -64,11 +68,7 @@ technologies and trends.</p>
                     <img src={web} alt='social' />
                 </a>
             </div>
-            <Footerlink
-                phrase='Read More '
-                link='about me!'
-                toadress='/about'
-            />
+            
         </>
     );
     }

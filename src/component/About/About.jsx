@@ -51,7 +51,7 @@ const About = () =>
 </h3>
                 <p className='about-details'>
                    <ul>
-                       <li> <span className="sub-head">Content Writer (Jan 2021 - March 2021)</span>
+                       <li> <span className="sub-head">Content Writer (Jan 2021 - March 2021)</span><br/>
                        <ul>
                           <li>Conducted thorough research on industry‐related topics.</li>
                           <li>Generated consistent and clear ideas for new content type.</li>
@@ -60,7 +60,16 @@ const About = () =>
                         </ul>
                         </li>
                         <br/>
-                        <li> <span className="sub-head">Gssoc Contributor (March 2021 - May 2021) </span>
+                        <li> <span className="sub-head">Campus Ambassador (Feb 2021 - May 2021)</span><br/>
+                       <ul>
+                          <li>Spread awareness about service among the students’ community.</li>
+                          <li>Nurtured a student community with the knowledge of their technology or services Organized various event.</li>
+                           <li>Assisted the marketing team</li>
+                          <li>Conducted how‐to sessions and initiate marketing and promotional activities, including social media promotion</li>
+                        </ul>
+                        </li>
+                        <br/>
+                        <li> <span className="sub-head">Gssoc Contributor (March 2021 - May 2021) </span><br/>
                        <ul>
                        <li>Worked diligently on 4 projects</li>
                         <li>One ofthe project gotselected byNGO‐ MathsGee and currently
@@ -69,7 +78,7 @@ const About = () =>
                         </ul>
                         </li>
                           <br/>
-                        <li> <span className="sub-head">Open Source Mentor (June 2021 - August 2021)</span>
+                        <li> <span className="sub-head">Open Source Mentor (June 2021 - August 2021)</span><br/>
                        <ul>
                           <li>Guided 50+ students during the program.</li>
                         <li>Resolved 100+ queries.</li>
