@@ -25,7 +25,7 @@ const About = () =>
                     <ul>
                         <li><span className="sub-head"> B.Tech(CSE) (2019-2023)</span>
                               <ul>
-                                  <li>Lovely Professional University || 8.49 C.G.P.A</li>
+                                  <li>Lovely Professional University || 8.65 C.G.P.A</li>
                                   
                               </ul>
                         </li>
